@@ -1,0 +1,21 @@
+body{
+background-image: url(https://www.sfondidesktopgratis.net/var/albums/calcio-sport/Catania-Logo.jpg?m=1370930119);
+  background-size:cover;
+  background-position:center;
+  height: 500px;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+}
+
+#links{
+    font-size: 25px;
+    color: black;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    
+  }

@@ -1,0 +1,210 @@
+body{
+  font-family: 'Lora', serif;
+  margin:0;
+  background-color: royalblue;
+}
+header{
+  background-image: url(https://cataniachannel.com/wp-content/uploads/2018/08/Curva-Nord-Catania-Calcio.jpg);
+  background-size:cover;
+  background-position:center;
+  height: 500px;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+}
+
+a{
+  cursor:pointer;
+}
+
+
+a.button{
+  color:black;
+  padding:10px 12px;
+  border:3px solid white;
+  border-radius:100px;
+  background-color:rgb(82, 82, 247);
+}
+
+
+a.button:hover{
+  background-color: white;
+  color:black;
+}
+
+.button,
+#details h1,
+header h1 strong,
+#links {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#details {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#details div {
+  width: calc(50% - 100px);
+}
+
+#details img {
+  width: 100%;
+  height: 90%;
+}
+
+#details h1 {
+  color: rgb(61, 153, 145);
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+header{
+  align-items:center;
+  justify-content:center;
+}
+
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+header h1 {
+  color:white;
+  font-weight: normal;
+  text-align: center;
+  z-index: 1;
+}
+
+header h1 a {
+  font-size: 15px;
+}
+
+header h1 em {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+header h1 strong {
+  font-size: 68px;
+  letter-spacing: 4px;
+  
+}
+
+
+header nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size:14px;
+  padding:10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+
+#links a {
+  color:white;
+  margin: 15px;
+  
+}
+
+section {
+  margin: 100px 125px;
+  text-align: center;
+}
+
+ #logo{
+  font-size:2.6em;
+  color:white;
+}
+
+
+footer{
+  background-color: rgb(172, 8, 8);
+  padding:60px;
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  
+  
+}
+
+a.button{
+  background-color: rgb(62, 62, 253);
+}
+
+footer p{
+  color:white;
+  display: inline;
+line-height: 1.5em;
+
+  
+}
+
+footer p img{
+  display: inline-block;
+  width: 80px;
+ 
+}
+#menu {
+  display: none;
+}
+
+#menu div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+@media (max-width: 500px) {
+  #links {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+    margin-right: 10%;
+  }
+  #details{
+    flex-direction:column;
+    width:300%;
+    height:auto;
+  }
+  #details div{
+    margin-top:1.5em;
+   }
+  #details a{
+    border: 3px solid rgb(196, 62, 62);
+    border-radius:6px;
+    padding:4px;
+    background-color: rgb(196, 62, 62);
+    color:blue;
+  }
+  
+  footer p{
+    font-size:0.6em;
+  }
+  
+}
+
+section img{
+  width:500px;
+}
+
+section a{
+  color: white;
+}
